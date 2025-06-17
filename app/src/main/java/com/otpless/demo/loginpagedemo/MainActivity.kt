@@ -1,4 +1,4 @@
-package com.otpless.demo.kreditpintardemo
+package com.otpless.demo.loginpagedemo
 
 import android.content.Intent
 import android.os.Bundle
@@ -21,7 +21,7 @@ import com.otpless.loginpage.util.Utility
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-const val LoginAppId = "PULP572EREYRMYBHXZJG"
+const val LoginAppId = "TYZV0G7QDBXJPRYNG2JO"
 
 
 class MainActivity : AppCompatActivity() {
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         // initialize the login controller in onCreate for prefetch and warmup
         loginController.initializeOtpless(LoginAppId, CctSupportConfig(type = CctSupportType.Cct)) { traceId ->
             // trace id is received here for tracking the login journey
-            Log.d("KreditApp", "traceId: $traceId")
+            Log.d("DemoApp", "traceId: $traceId")
         }
         // set the result callback, response will be sent in this function
         loginController.registerResultCallback(this::onLoginResult)
@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
             is OtplessResult.Error -> {
                 val traceId = result.traceId
                 // log to get the trace of user journey
-                Log.d("KreditApp", result.toString())
+                Log.d("DemoApp", result.toString())
                 Toast.makeText(this, "message", Toast.LENGTH_LONG).show()
                 // check the doc result.errorCode
                 // https://otpless.com/docs/frontend-sdks/app-sdks/android/new/references/error-codes

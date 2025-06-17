@@ -32,7 +32,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="otpless.pulp572ereyrmybhxzjg"
+                    android:scheme="otpless.tyzv0g7qdbxjpryng2jo"
                     android:host="otpless"
                     />
             </intent-filter>

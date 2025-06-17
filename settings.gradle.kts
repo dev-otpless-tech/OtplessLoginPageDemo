@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "KreditPintarDemo"
+rootProject.name = "LoginPageDemo"
 include(":app")
  

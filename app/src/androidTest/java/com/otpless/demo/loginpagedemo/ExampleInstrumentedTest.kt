@@ -1,4 +1,4 @@
-package com.otpless.demo.kreditpintardemo
+package com.otpless.demo.loginpagedemo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

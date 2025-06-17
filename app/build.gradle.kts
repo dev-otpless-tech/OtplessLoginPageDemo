@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.otpless.demo.kreditpintardemo"
+    namespace = "com.otpless.demo.loginpagedemo"
     compileSdk = 35
 
     defaultConfig {

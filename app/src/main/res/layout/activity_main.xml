@@ -10,44 +10,34 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="bottom|center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
 
-        <ImageView
-            android:layout_width="match_parent"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="48dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginHorizontal="24dp"
-            android:scaleType="fitXY"
-            android:background="@mipmap/kredit_pinter_banner" />
-
-
+            android:gravity="center"
+            android:text="Login Page Demo"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="32dp"/>
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
 
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/tic_start_btn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="24dp"
-                android:layout_marginVertical="16dp"
-                android:backgroundTint="#1CC812"
-                android:text="Login"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                app:cornerRadius="12dp" />
-
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tic_start_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginVertical="16dp"
+            android:backgroundTint="#3062d4"
+            android:text="Get Started"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:cornerRadius="12dp" />
     </LinearLayout>
-
-
-
-
-
-
 
 </FrameLayout>

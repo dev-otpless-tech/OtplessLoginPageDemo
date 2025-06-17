@@ -1,4 +1,4 @@
-package com.otpless.demo.kreditpintardemo
+package com.otpless.demo.loginpagedemo
 
 import org.junit.Test
 
